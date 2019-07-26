@@ -1,7 +1,47 @@
-# my-stars-management
-
 ## 目录
 
+* [Java](#java)
+  * [Java诊断工具](#java%E8%AF%8A%E6%96%AD%E5%B7%A5%E5%85%B7)
+  * [多线程](#%E5%A4%9A%E7%BA%BF%E7%A8%8B)
+* [Spring Boot](#spring-boot)
+* [Spring Cloud](#spring-cloud)
+  * [注册中心](#%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83)
+  * [服务调用/负载均衡](#%E6%9C%8D%E5%8A%A1%E8%B0%83%E7%94%A8%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1)
+  * [网关](#%E7%BD%91%E5%85%B3)
+  * [熔断限流](#%E7%86%94%E6%96%AD%E9%99%90%E6%B5%81)
+  * [配置中心](#%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83)
+  * [灰度](#%E7%81%B0%E5%BA%A6)
+  * [服务治理](#%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86)
+  * [Spring Cloud整理](#spring-cloud%E6%95%B4%E7%90%86)
+* [Spring Security &amp; OAuth2](#spring-security--oauth2)
+* [OpenID](#openid)
+* [好案例](#%E5%A5%BD%E6%A1%88%E4%BE%8B)
+  * [微服务案例](#%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%A1%88%E4%BE%8B)
+  * [商城](#%E5%95%86%E5%9F%8E)
+* [Database Connection Pool](#database-connection-pool)
+  * [Alibaba](#alibaba)
+* [SOA](#soa)
+  * [Alibaba](#alibaba-1)
+* [CI/CD](#cicd)
+  * [Netflix](#netflix)
+* [API管理](#api%E7%AE%A1%E7%90%86)
+* [MQ](#mq)
+  * [Kafka](#kafka)
+  * [QMQ](#qmq)
+* [算法](#%E7%AE%97%E6%B3%95)
+  * [leetcode](#leetcode)
+* [大数据](#%E5%A4%A7%E6%95%B0%E6%8D%AE)
+  * [flink](#flink)
+* [资料](#%E8%B5%84%E6%96%99)
+  * [Java](#java-1)
+  * [SpringCloud](#springcloud)
+  * [OAuth2](#oauth2)
+  * [Elasticsearch](#elasticsearch)
+  * [git](#git)
+  * [Go](#go)
+  * [K8S](#k8s)
+  * [架构](#%E6%9E%B6%E6%9E%84)
+* [大牛](#%E5%A4%A7%E7%89%9B)
 
 <br>
 
@@ -26,33 +66,103 @@
 
 - **程序猿DD / SpringBoot-Learning**  https://github.com/dyc87112/SpringBoot-Learning
 
-  > Spring Boot基础教程，Spring Boot 2.x版本连载中！！！ http://blog.didispace.com
+  > 本项目内容为[《Spring Boot基础教程》](http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/)的程序样例
+  >
+  > **专题目标**：打造全网内容最全，比收费教程更好的Spring Boot免费教程！ 
+  >
+  > http://blog.didispace.com
+
+-  **恒宇少年 / spring-boot-chapter**  https://gitee.com/hengboy/spring-boot-chapter
+
+  > SpringBoot企业级核心技术，对应简书《Spring Boot 核心技术》专题配套源码
+  > http://apiboot.minbox.io
+
+- **Shiro-SpringBoot**  https://github.com/HowieYuan/Shiro-SpringBoot
+
+  > shiro 框架的构建以及与 JWT 的整合
+  >
+  > 一. shiro 整合 springBoot 实现基本的角色权限控制
+  > https://github.com/HowieYuan/Shiro-SpringBoot/tree/master/shiroSimple
+  >
+  > 二. shiro + springBoot 整合 JWT
+  > https://github.com/HowieYuan/Shiro-SpringBoot/tree/master/shiroJWT
+
+- **纯洁的微笑**
+
+  - **awesome-spring-boot**  https://github.com/ityouknow/awesome-spring-boot
+
+    > 收集各种 Spring Boot 学习资源
+    >
+    > http://www.springboot.fun/
+
+  - **spring-boot-examples**  https://github.com/ityouknow/spring-boot-examples
+
+    > Spring Boot 学习示例
+    >
+    > Spring Boot 使用的各种示例，以最简单、最实用为标准，此开源项目中的每个示例都以最小依赖，最简单为标准，帮助初学者快速掌握 Spring Boot 各组件的使用
+
+- **泥瓦匠BYSocket / springboot-learning-example**  https://github.com/JeffLi1993/springboot-learning-example
+
+  > spring boot 实践学习案例，是 spring boot 初学者及核心技术巩固的最佳实践
+  >
+  > https://www.javaspring.net
+
+- **springboot-action**  https://github.com/lianggzone/springboot-action
+
+  > Spring Boot 揭秘与实战 源代码
+  >
+  > 本项目内容为 《Spring Boot 揭秘与实战》系列，汇总文集。如您觉得该项目对您有用，欢迎点击右上方的 Star 按钮，给予支持！！
+  >
+  > 博客：http://blog.720ui.com
+  > GitHub：https://github.com/lianggzone/springboot-action
+
+- **搜云库 / SpringBootExample**s   https://github.com/souyunku/SpringBootExamples
+
+  > Spring Boot 学习教程  https://www.souyunku.com/tags/SpringBoot
+
+- **嘟嘟MD / SpringBootDemo**  https://github.com/tengj/SpringBootDemo
+
+  > Spring Boot干货系列，分享学习中整理的一些笔记和源码
+
+- **spring-boot-student**  https://github.com/wyh-spring-ecosystem-student/spring-boot-student
+
+- **dengfuwei / springboot**  https://gitee.com/itopener/springboot
+
+  > spring boot、spring cloud的一些封装和使用示例。Wiki中有一些总结分享
+  >
+  > （自己：还是有些货的）
 
 <br>
 
 ## Spring Cloud
 
-### Netflix
+### 注册中心
 
 - **Eureka**  https://github.com/Netflix/eureka
+- **Alibaba / Nacos（注册中心+配置中心）** https://github.com/alibaba/nacos
+- **拍拍贷 / radar**  https://github.com/springauth/radar
+
+### 服务调用/负载均衡
+
 - **Ribbon**  https://github.com/Netflix/ribbon
+- **feign**  https://github.com/OpenFeign/feign
+- **拍拍贷 / raptor**  https://github.com/springauth/raptor
+
+### 网关
+
 - **Zuul**  https://github.com/Netflix/zuul
 - **Hystrix**  https://github.com/Netflix/Hystrix
-- **feign**  https://github.com/OpenFeign/feign
 
-### Alibaba
+### 熔断限流
 
-- **注册中心+配置中心Nacos** https://github.com/alibaba/nacos
+- **Hystrix**  https://github.com/Netflix/Hystrix
 
-- **Sentinel** https://github.com/alibaba/Sentinel
+- **resilience4j**  https://github.com/resilience4j/resilience4j
+- **Alibaba / Sentinel** https://github.com/alibaba/Sentinel
 
 ### 配置中心
 
 - **携程Apollo**  https://github.com/ctripcorp/apollo
-
-### 熔断限流
-
-- **resilience4j**  https://github.com/resilience4j/resilience4j
 
 ### 灰度
 
@@ -66,21 +176,63 @@
   >
   > 代码迁移到 https://github.com/SpringCloud/spring-cloud-gray
 
-- 
 
+- **goofly / springcloud-gray**  https://github.com/goofly/springcloud-gray
 
+  > SpringCloud 灰度发布
 
 ### 服务治理
 
-- Moss(莫斯)  https://github.com/SpringCloud/Moss
+- **Moss(莫斯)**   https://github.com/SpringCloud/Moss
 
   > Moss(莫斯)-Spring Cloud体系的服务治理平台，让Spring Cloud应用不再流浪！
+
+### Spring Cloud整理
+
+- **程序猿DD / SpringCloud-Learning**  https://github.com/dyc87112/SpringCloud-Learning
+
+  > Spring Cloud基础教程，持续连载更新中 http://blog.didispace.com
+
+- **周立**
+
+  - **spring-cloud-book**  https://github.com/eacdy/spring-cloud-book
+
+    > 《使用Spring Cloud与Docker实战微服务》开源书。讨论QQ群：731548893。配套代码：https://github.com/eacdy/spring-cloud-study http://www.itmuch.com
+
+  - **spring-cloud-study**  https://github.com/eacdy/spring-cloud-study
+
+    > 开源书《跟我学Spring Cloud》的配套代码
+    >
+    > 2016-Brixton目录：开源书<http://www.gitee.com/itmuch/spring-cloud-book> 配套源码
+    >
+    > 2018-Finchley目录：跟我学Spring Cloud系列博客（<http://www.itmuch.com/>）配套源码
+
+- **恒宇少年 / spring-cloud-chapter**  https://gitee.com/hengboy/spring-cloud-chapter
+
+  > SpringCloud企业级核心技术，对应简书《Spring Cloud 核心技术》专题配套源码
+
+- **纯洁的微笑 / spring-cloud-examples**  https://github.com/ityouknow/spring-cloud-examples
+
+  > Spring Cloud 学习案例，服务发现、服务治理、链路追踪、服务监控等 <http://www.ityouknow.com/>
+
+- **搜云库 / SpringCloudExamples**  https://github.com/souyunku/SpringCloudExamples
+- **springcloud.cn**  https://github.com/SpringCloud
+
+- **杨波 / spring2go**  https://github.com/spring2go
+
+-  **极客慧 / JiKeHCN-RELEASE**  https://gitee.com/jikeh/JiKeHCN-RELEASE
 
 <br>
 
 ## Spring Security & OAuth2
 
 - **spring-guides**
+
+  - **Securing a Web Application**
+
+    > Securing a Web Application :: Learn how to protect your web application with Spring Security.
+    >
+    > http://spring.io/guides/gs/securing-web/
 
   - **Spring Security and Angular** 
 
@@ -104,11 +256,23 @@
     >
     > https://github.com/spring-guides/tut-spring-boot-oauth2
 
+- **spring-cloud-samples**
+
+  - **authserver**  https://github.com/spring-cloud-samples/authserver
+  - **sample-gateway-oauth2login**  https://github.com/spring-cloud-samples/sample-gateway-oauth2login
+  - **sso**  https://github.com/spring-cloud-samples/sso
+
 - **Baeldung**
 
   - **oauth-microservices**    https://github.com/Baeldung/oauth-microservices
 
     > [OAuth2 – @EnableResourceServer vs @EnableOAuth2Sso](https://www.baeldung.com/spring-security-oauth2-enable-resource-server-vs-enable-oauth2-sso)  POC for an OAuth2-based Architecture running behind an API Gateway
+
+- <font color="red">**jojozhai / security**</font>  https://github.com/jojozhai/security
+
+  > 慕课网 http://coding.imooc.com/class/134.html 的源代码
+  >
+  > 集成 spring securit, spring security oauth 和 spring social，实现 用户名密码登录，手机验证码登录，社交账号登录，基于jwt的sso，集群session管理等功能
 
 - **aoho求索**
 
@@ -164,21 +328,82 @@
 
   > 微软.net商城
 
-- **x-boot**  https://github.com/Exrick/x-boot
-
-  > 基于Spring Boot 2.x的前后端分离开发平台X-Boot 前端：Vue+iView Admin 后端：Spring Boot 2.x/Spring Security/JWT/Spring Data JPA+Mybatis-Plus/Redis/Elasticsearch/Activiti 分布式限流/同步锁/验证码/SnowFlake雪花算法ID生成 动态权限管理 数据权限 工作流 代码生成 日志记录 定时任务 第三方社交账号、短信登录 单点登录 http://xboot.exrick.cn
-
 - **Staffjoy**  
 
   > 原版：https://github.com/Staffjoy/v2
   >
-  > 波波版：https://github.com/spring2go/staffjoy
+  > 杨波版：https://github.com/spring2go/staffjoy
   >
   > 微服务和云原生架构教学案例项目，基于Spring Boot和Kubernetes技术栈
 
 - **GoogleCloudPlatform / microservices-demo**  https://github.com/GoogleCloudPlatform/microservices-demo
 
   > Google基于Go语言的微服务Demo
+
+- **jbone**  https://github.com/417511458/jbone
+
+  > jbone基于Spring Cloud框架开发，旨在为中小企业提供稳定的微服务解决方案，为开发人员提供基础开发骨架，jbone包含微服务中所有常用组件，例如注册中心、服务管理、服务监控、JVM监控、内存分析、调用链跟踪、API网关等等。业务功能包括系统权限的统一管理、单点登录、CMS、电商平台、工作流平台、支付平台等等。 http://jbone.cn/
+
+- **x-boot**  https://github.com/Exrick/x-boot
+
+  > 基于Spring Boot 2.x的前后端分离开发平台X-Boot 前端：Vue+iView Admin 后端：Spring Boot 2.x/Spring Security/JWT/Spring Data JPA+Mybatis-Plus/Redis/Elasticsearch/Activiti 分布式限流/同步锁/验证码/SnowFlake雪花算法ID生成 动态权限管理 数据权限 工作流 代码生成 日志记录 定时任务 第三方社交账号、短信登录 单点登录 http://xboot.exrick.cn
+
+- **open-capacity-platform**  https://gitee.com/owenwangwen/open-capacity-platform
+
+  > open-capacity-platform 微服务能力开放平台【杨波推荐】
+  >
+  > 
+  >
+  > 简称ocp是基于layui+springcloud的企业级微服务框架(用户权限管理，配置中心管理，应用管理，....),其核心的设计目标是分离前后端，快速开发部署，学习简单，功能强大，提供快速接入核心接口能力，其目标是帮助企业搭建一套类似百度能力开放平台的框架
+  >
+  > 基于layui前后端分离的企业级微服务架构
+  > 兼容spring cloud netflix & spring cloud alibaba
+  > 优化Spring Security内部实现，实现API调用的统一出口和权限认证授权中心
+  > 提供完善的企业微服务流量监控，日志监控能力
+  > 提供完善的压力测试方案
+  > 提供完善的灰度发布方案
+  > 提供完善的微服务部署方案
+
+- **杨波 / MovieApp**  https://github.com/jskillcloud/MovieApp
+
+  > 全栈微服务演示案例～MovieApp
+  >
+  > 微服务和云原生架构实践～使用Spring Boot + JWT + React + Docker/Kubernetes
+
+- **pig**  https://gitee.com/log4j/pig
+
+  > 基于 Spring Cloud Greenwich、 OAuth2 的RBAC 权限管理系统
+  > https://pig4cloud.com
+  >
+  > 基于 Spring Cloud Greenwich.SR2 、Spring Security OAuth2 的RBAC权限管理系统
+  > 基于数据驱动视图的理念封装 Element-ui，即使没有 vue 的使用经验也能快速上手
+  > 提供对常见容器化支持 Docker、Kubernetes、Rancher2 支持
+  > 提供 lambda 、stream api 、webflux 的生产实践
+  >
+  > 前端：https://gitee.com/log4j/pig-ui
+
+- **老干爹 / Cloud-Platform**  https://gitee.com/geek_qi/cloud-platform
+
+  > Cloud-Platform是国内首个基于Spring Cloud微服务化开发平台，具有统一授权、认证后台管理系统，其中包含具备用户管理、资源权限管理、网关API 管理等多个模块，支持多业务系统并行开发，可以作为后端服务的开发脚手架。代码简洁，架构清晰，适合学习和直接项目中使用。 核心技术采用Spring Boot 2.1.2以及Spring Cloud (Greenwich.RELEASE) 相关核心组件，采用Nacos注册和配置中心，集成流量卫兵Sentinel，前端采用vue-element-admin组件
+  >
+  > 前端：https://gitee.com/geek_qi/cloud-platform-ui
+
+- **paascloud-master**  https://github.com/paascloud/paascloud-master
+
+  > 功能点：
+  >     模拟商城，完整的购物流程、后端运营平台对前端业务的支撑，和对项目的运维，有各项的监控指标和运维指标。
+  > 技术点：
+  >        核心技术为springcloud+vue两个全家桶实现，采取了取自开源用于开源的目标，所以能用开源绝不用收费框架，整体技术栈只有阿里云短信服务是收费的，都是目前java前瞻性的框架，可以为中小企业解决微服务架构难题，可以帮助企业快速建站。由于服务器成本较高，尽量降低开发成本的原则，本项目由10个后端项目和3个前端项目共同组成。真正实现了基于RBAC、jwt和oauth2的无状态统一权限认证的解决方案，实现了异常和日志的统一管理，实现了MQ落地保证100%到达的解决方案
+  >
+  > 核心框架：springcloud Edgware全家桶
+  > 安全框架：Spring Security Spring Cloud Oauth2
+  > 分布式任务调度：elastic-job
+  > 持久层框架：MyBatis、通用Mapper4、Mybatis_PageHelper
+  > 数据库连接池：Alibaba Druid
+  > 日志管理：Logback	前端框架：Vue全家桶以及相关组件
+  > 三方服务： 邮件服务、阿里云短信服务、七牛云文件服务、钉钉机器人服务、高德地图API
+  >
+  > http://www.paascloud.net
 
 ### 商城
 
@@ -329,7 +554,7 @@
 
 ### 架构
 
-- architecture.of.internet-product  https://github.com/davideuler/architecture.of.internet-product
+- **architecture.of.internet-product**  https://github.com/davideuler/architecture.of.internet-product
 
   > 互联网公司技术架构，微信/淘宝/微博/腾讯/阿里/美团点评/百度/Google/Facebook/Amazon/eBay的架构
 
