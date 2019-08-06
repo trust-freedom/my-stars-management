@@ -405,6 +405,18 @@
   >
   > http://www.paascloud.net
 
+-  **soler / open-cloud**  https://gitee.com/liuyadu/open-cloud
+
+  > 微服务开放平台 3.0.0(重构版) 更快、更新、更全面
+  > 简介
+  > 搭建基于OAuth2的开放平台、为APP端、应用服务提供统一接口管控平台、为第三方合作伙伴的业务对接提供授信可控的技术对接平台
+  >
+  > - 分布式架构,统一配置中心,服务治理.fegin(RPC)内部调用,微服务管理开发更便捷!
+  > - 统一API网关、访问鉴权、接口管理、参数验签、接口调用更安全!
+  > - 深度整合SpringSecurity+Oauth2,统一认证协议、url级鉴权、更细粒度、灵活的ABAC权限控制!
+  > - 前后端分离方式开发应用，分工合作更高效!
+  > - 代码合理封装、简单易懂、简化开发流程!
+
 ### 商城
 
 - **litemall**  https://github.com/linlinjava/litemall
@@ -557,6 +569,16 @@
 - **architecture.of.internet-product**  https://github.com/davideuler/architecture.of.internet-product
 
   > 互联网公司技术架构，微信/淘宝/微博/腾讯/阿里/美团点评/百度/Google/Facebook/Amazon/eBay的架构
+
+- **0voice / from_coder_to_expert**  https://github.com/0voice/from_coder_to_expert
+
+  > 2019年最新总结，从程序员到CTO，从专业走向卓越，分享大牛企业内部pdf与PPT
+
+### 面试
+
+- **0voice / interview_internal_reference**  https://github.com/0voice/interview_internal_reference
+
+  > 2019年最新总结，阿里，腾讯，百度，美团，头条等技术面试题目，以及答案，专家出题人分析汇总
 
 <br>
 
