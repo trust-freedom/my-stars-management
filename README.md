@@ -569,6 +569,16 @@
 
   > Kubernetes Handbook （Kubernetes指南） https://kubernetes.feisky.xyz
 
+- **cnych / kubernetes-learning**
+
+  > 《从Docker到Kubernetes进阶课程》
+  >
+  > 在线浏览：https://k8s.qikqiak.com   ||   https://www.qikqiak.com/k8s-book
+  >
+  > GitHub地址：https://github.com/cnych/kubernetes-learning/
+  >
+  > 视频课程在线地址：https://youdianzhishi.com/course/6n8xd6/
+
 ### 架构
 
 - **architecture.of.internet-product**  https://github.com/davideuler/architecture.of.internet-product
