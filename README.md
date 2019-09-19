@@ -533,6 +533,10 @@
 
   > Spring Cloud 优质资源一网打尽 http://www.itmuch.com
 
+- **方志朋 / SpringCloudLearning**  https://github.com/forezp/SpringCloudLearning
+
+  > 《史上最简单的Spring Cloud教程源码》
+
 ### OAuth2
 
 - **RFC6749.zh-cn**   https://github.com/jeansfish/RFC6749.zh-cn
