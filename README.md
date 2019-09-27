@@ -487,6 +487,22 @@
 
 <br>
 
+## Java Mapping框架
+
+- **mapstruct**   https://github.com/mapstruct/mapstruct
+
+  > mapstruct
+  >
+  > https://github.com/mapstruct/mapstruct
+  >
+  > mapstruct-examples
+  >
+  > https://github.com/mapstruct/mapstruct-examples
+  >
+  > 官网：http://mapstruct.org
+
+<br>
+
 ## 算法
 
 ### leetcode
@@ -495,7 +511,7 @@
 
   > LeetCode题解，151道题完整版
 
-- LeetCodeAnimation   https://github.com/MisterBooo/LeetCodeAnimation
+- **LeetCodeAnimation**   https://github.com/MisterBooo/LeetCodeAnimation
 
   > 用动画的形式呈现解LeetCode题目的思路
 
