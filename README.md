@@ -479,6 +479,12 @@
 
   > Java版Kafka
 
+### RocketMQ
+
+- **apache/rocketmq**    https://github.com/apache/rocketmq
+- **apache/rocketmq-externals**    https://github.com/apache/rocketmq-externals
+- **apache/rocketmq-spring**    https://github.com/apache/rocketmq-spring
+
 ### QMQ
 
 - **qmq**  https://github.com/qunarcorp/qmq
