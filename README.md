@@ -593,6 +593,20 @@
 
 - **deviantony/docker-elk**    https://github.com/deviantony/docker-elk
 
+### Prometheus
+
+- <font color="blue">**yunlzheng/prometheus-book**</font>    https://github.com/yunlzheng/prometheus-book
+
+  > Prometheus操作指南 [https://yunlzheng.gitbook.io/prometheus-book/](https://yunlzheng.gitbook.io/prometheus-book/)
+
+- **1046102779/prometheus**    https://github.com/1046102779/prometheus
+
+  > Prometheus官网的非官方中文手册，旨在为大家提供一个比较容易入手的文档。翻译得不好，请大家多多包涵，并帮忙修订校正
+
+- **samber/awesome-prometheus-alerts**    https://github.com/samber/awesome-prometheus-alerts
+
+  > Collection of Prometheus alerting rules [https://awesome-prometheus-alerts.grep.to/](https://awesome-prometheus-alerts.grep.to/)
+
 ### git
 
 - **git-tips**   https://github.com/521xueweihan/git-tips
