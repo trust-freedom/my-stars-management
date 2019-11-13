@@ -297,6 +297,28 @@
 
   > 史上最全的整合第三方登录的开源库。目前已支持Github、Gitee、微博、钉钉、百度、Coding、腾讯云开发者平台、OSChina、支付宝、QQ、微信、淘宝、Google、Facebook、抖音、领英、小米、微软、今日头条、Teambition、StackOverflow、Pinterest和人人等第三方平台的授权登录。 Login, so easy!
 
+- **li.shengzhao 李胜钊 系列** （http://andaily.com/blog/）
+
+  - **spring-oauth-server**
+
+    > Spring Security & OAuth2
+    > http://andaily.com/spring-oauth-server/
+
+  - **spring-oauth-client**
+
+    > spring-oauth-server client demo project
+    > http://andaily.com/spring-oauth-client/
+
+  - **oauth2-shiro**
+
+  - **oauth2-shiro-redis**
+
+    > oauth2-shiro与Redis的整合, 更符合实际项目需要
+
+  - **MyOIDC**
+
+    > 基于OIDC协议的参考实现,根据各类库提供实现参考
+
 <br>
 
 ## OpenID
