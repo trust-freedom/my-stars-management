@@ -641,6 +641,10 @@
 
   > 《The Way to Go》中文译本，中文正式名《Go 入门指南》
 
+- **quii/learn-go-with-tests**  https://github.com/quii/learn-go-with-tests
+
+  > 通过 Go 语言学习测试驱动开发
+
 ### K8S
 
 - **easzlab / kubeasz**   https://github.com/easzlab/kubeasz
