@@ -458,6 +458,12 @@
 
   > mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于SpringBoot+MyBatis实现。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。 http://39.98.190.128/index.html
 
+### 秒杀
+
+- **qiurunze123 / miaosha**    https://github.com/qiurunze123/miaosha
+
+  > 秒杀系统设计与实现.互联网工程师进阶与分析
+
 <br>
 
 ## Database Connection Pool
@@ -573,6 +579,18 @@
 
 <br>
 
+## 微信排版
+
+- **lyricat / wechat-format**    https://github.com/lyricat/wechat-format
+
+  > 微信公众号排版编辑器，转换 Markdown 到微信特制的 HTML <https://lab.lyric.im/wxformat>
+
+- **doocs / md**    https://github.com/doocs/md
+
+  > 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 所有基础语法、色盘取色、一键复制并粘贴到公众号后台、多图上传、一键下载文档、自定义 CSS 样式、一键重置等特性 https://doocs.github.io/md
+
+- **程序猿DD / online-markdown**    http://blog.didispace.com/tools/online-markdown/
+
 ## 资料
 
 ### Java
@@ -588,6 +606,10 @@
 - **JavaGuide**  https://github.com/Snailclimb/JavaGuide
 
   > 【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识
+
+- **eugenp / tutorials**    https://github.com/eugenp/tutorials
+
+  > 个人感觉是对 www.baeldung.com 各类学习资料的整理
 
 ### SpringCloud
 
@@ -680,6 +702,22 @@
 - **0voice / interview_internal_reference**  https://github.com/0voice/interview_internal_reference
 
   > 2019年最新总结，阿里，腾讯，百度，美团，头条等技术面试题目，以及答案，专家出题人分析汇总
+
+- **doocs / advanced-java**   https://github.com/doocs/advanced-java
+
+  > 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务等领域知识，后端同学必看，前端同学也可学习 https://doocs.gitee.io/advanced-java
+
+- **doocs / coding-interview**    https://github.com/doocs/coding-interview
+
+  > 代码面试题集，包括剑指 Offer、编程之美等
+
+- **shishan100 / Java-Interview-Advanced**   https://github.com/shishan100/Java-Interview-Advanced
+
+  > 中华石杉--互联网Java进阶面试训练营
+
+- **JavaGuide**   https://github.com/Snailclimb/JavaGuide
+
+  > 【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识
 
 <br>
 
